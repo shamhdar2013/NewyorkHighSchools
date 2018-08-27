@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  NYCSchoolDataDemo
+
+  Created by RADHIKA SHARMA on 8/26/18.
+  Copyright © 2018 RADHIKA SHARMA. All rights reserved.
+*/
+"Main_Title" = "NYC High Schools";
+"City_Label" = "City:";
+"Phone_Label" = "Phone:";
+"Math_Label" = "Math: ";
+"Read_Label" = "Reading: ";
+"Write_Label" = "Writing: ";
+"Detail_Label" = "SAT Score";

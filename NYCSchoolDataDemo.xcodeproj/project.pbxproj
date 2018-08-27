@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF940B872132E66A00A46E1C /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF940B862132E66A00A46E1C /* SchoolViewModel.swift */; };
+		DF940B892132E78100A46E1C /* SchoolSATScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF940B882132E78100A46E1C /* SchoolSATScoreModel.swift */; };
+		DF940B8B2132F1C500A46E1C /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF940B8A2132F1C500A46E1C /* SATScore.swift */; };
+		DF940B8D213308B400A46E1C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF940B8C213308B400A46E1C /* Localizable.strings */; };
 		DFDF01CF2131EB7D004D1A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF01CE2131EB7D004D1A31 /* AppDelegate.swift */; };
 		DFDF01D12131EB7D004D1A31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF01D02131EB7D004D1A31 /* ViewController.swift */; };
 		DFDF01D42131EB7D004D1A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDF01D22131EB7D004D1A31 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		DFDF01DC2131EB7F004D1A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDF01DA2131EB7F004D1A31 /* LaunchScreen.storyboard */; };
 		DFDF01E72131EB7F004D1A31 /* NYCSchoolDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF01E62131EB7F004D1A31 /* NYCSchoolDataDemoTests.swift */; };
 		DFDF01F22131EB7F004D1A31 /* NYCSchoolDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF01F12131EB7F004D1A31 /* NYCSchoolDataDemoUITests.swift */; };
+		DFDF02002131EC41004D1A31 /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF01FF2131EC41004D1A31 /* SchoolDetailViewController.swift */; };
+		DFDF02042131ECB6004D1A31 /* SchoolDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF02032131ECB6004D1A31 /* SchoolDataFetcher.swift */; };
+		DFDF0208213228B9004D1A31 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF0206213228B9004D1A31 /* SchoolTableViewCell.swift */; };
+		DFDF0209213228B9004D1A31 /* SchoolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDF0207213228B9004D1A31 /* SchoolTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF940B862132E66A00A46E1C /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		DF940B882132E78100A46E1C /* SchoolSATScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSATScoreModel.swift; sourceTree = "<group>"; };
+		DF940B8A2132F1C500A46E1C /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
+		DF940B8C213308B400A46E1C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DFDF01CB2131EB7D004D1A31 /* NYCSchoolDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchoolDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF01CE2131EB7D004D1A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDF01D02131EB7D004D1A31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		DFDF01ED2131EB7F004D1A31 /* NYCSchoolDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCSchoolDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF01F12131EB7F004D1A31 /* NYCSchoolDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolDataDemoUITests.swift; sourceTree = "<group>"; };
 		DFDF01F32131EB7F004D1A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDF01FF2131EC41004D1A31 /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		DFDF02032131ECB6004D1A31 /* SchoolDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataFetcher.swift; sourceTree = "<group>"; };
+		DFDF0206213228B9004D1A31 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		DFDF0207213228B9004D1A31 /* SchoolTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,9 @@
 		DFDF01CD2131EB7D004D1A31 /* NYCSchoolDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DFDF020521322886004D1A31 /* Views */,
+				DFDF02022131EC68004D1A31 /* Model */,
+				DFDF02012131EC58004D1A31 /* DataAPI */,
 				DFDF01CE2131EB7D004D1A31 /* AppDelegate.swift */,
 				DFDF01D02131EB7D004D1A31 /* ViewController.swift */,
 				DFDF01D22131EB7D004D1A31 /* Main.storyboard */,
@@ -106,6 +125,8 @@
 				DFDF01DA2131EB7F004D1A31 /* LaunchScreen.storyboard */,
 				DFDF01DD2131EB7F004D1A31 /* Info.plist */,
 				DFDF01D52131EB7D004D1A31 /* NYCSchoolDataDemo.xcdatamodeld */,
+				DFDF01FF2131EC41004D1A31 /* SchoolDetailViewController.swift */,
+				DF940B8C213308B400A46E1C /* Localizable.strings */,
 			);
 			path = NYCSchoolDataDemo;
 			sourceTree = "<group>";
@@ -126,6 +147,33 @@
 				DFDF01F32131EB7F004D1A31 /* Info.plist */,
 			);
 			path = NYCSchoolDataDemoUITests;
+			sourceTree = "<group>";
+		};
+		DFDF02012131EC58004D1A31 /* DataAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF02032131ECB6004D1A31 /* SchoolDataFetcher.swift */,
+			);
+			path = DataAPI;
+			sourceTree = "<group>";
+		};
+		DFDF02022131EC68004D1A31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF940B862132E66A00A46E1C /* SchoolViewModel.swift */,
+				DF940B882132E78100A46E1C /* SchoolSATScoreModel.swift */,
+				DF940B8A2132F1C500A46E1C /* SATScore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFDF020521322886004D1A31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF0206213228B9004D1A31 /* SchoolTableViewCell.swift */,
+				DFDF0207213228B9004D1A31 /* SchoolTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +280,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF940B8D213308B400A46E1C /* Localizable.strings in Resources */,
 				DFDF01DC2131EB7F004D1A31 /* LaunchScreen.storyboard in Resources */,
 				DFDF01D92131EB7F004D1A31 /* Assets.xcassets in Resources */,
 				DFDF01D42131EB7D004D1A31 /* Main.storyboard in Resources */,
+				DFDF0209213228B9004D1A31 /* SchoolTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDF01D12131EB7D004D1A31 /* ViewController.swift in Sources */,
+				DF940B892132E78100A46E1C /* SchoolSATScoreModel.swift in Sources */,
+				DFDF0208213228B9004D1A31 /* SchoolTableViewCell.swift in Sources */,
+				DF940B8B2132F1C500A46E1C /* SATScore.swift in Sources */,
 				DFDF01D72131EB7D004D1A31 /* NYCSchoolDataDemo.xcdatamodeld in Sources */,
+				DFDF02002131EC41004D1A31 /* SchoolDetailViewController.swift in Sources */,
+				DFDF02042131ECB6004D1A31 /* SchoolDataFetcher.swift in Sources */,
 				DFDF01CF2131EB7D004D1A31 /* AppDelegate.swift in Sources */,
+				DF940B872132E66A00A46E1C /* SchoolViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
